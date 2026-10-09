@@ -41,13 +41,13 @@ Your task is to containerize this existing application using Docker. You need to
 - To build the docker image run the command:
 
 ```bash
-
+docker build -t assignment-4-docker .
 ```
 
 - To run your docker container in port 3000 run the command:
 
 ```bash
-
+docker run -p 3000:3000 assignment-4-docker
 ```
 
 ## Reflection Question
