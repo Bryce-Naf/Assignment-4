@@ -53,6 +53,7 @@ docker run -p 3000:3000 assignment-4-docker
 ## Reflection Question
 **Answer the following question in the space below**: How does containerization with Docker differ from using virtual machines, and why might a development team choose Docker containers over VMs for deploying applications like the one you just containerized?
 
+Containerization with Docker differs from virtual machines in a few ways. One major way is that containerization is significantly faster than using a virtual machine. Rather than taking minutes to boot up, using containers allows for files to be run in seconds. Along with this, virtual machines simulate an entire new environment on your computer, whereas containers just run off of one global host server somewhere else. Containers are much more versatile and easier to work with than virtual machines. A development team would use containers rather than virtual machines as they are faster, more accessible for different operating systems, and allow for programs to be run even if elements required to run them are not on the system that is running the program.
 
 
 ## Application Requirements for Docker
